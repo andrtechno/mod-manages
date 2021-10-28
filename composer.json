@@ -22,7 +22,7 @@
     },
     "scripts": {
         "post-package-install": [
-            "Pixelion\\Composer\\Installers\\Installer::postCreateProject"
+            "panix\\mod\\manages\\Composer::postPackageInstall"
         ]
     },
     "extra": {

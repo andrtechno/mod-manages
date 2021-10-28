@@ -2,8 +2,10 @@
 
 namespace panix\mod\mananges;
 
+use Composer\Script\Event;
 
-class Composer extends \Pixelion\Composer\Installers\Installer
+
+class Composer
 {
     public static function postAutoloadDump(Event $event)
     {
@@ -13,7 +15,7 @@ class Composer extends \Pixelion\Composer\Installers\Installer
 
     }
 
-    public static function postPackageInstall(PackageEvent $event)
+    public static function postPackageInstall(Event $event)
     {
         $installedPackage = $event->getOperation()->getPackage();
         echo 'install pack!!!!!!';

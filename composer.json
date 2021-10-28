@@ -20,4 +20,13 @@
             "panix\\mod\\manages\\": ""
         }
     }
+    "extra": {
+        "Pixelion\\Composer\\Installers\\Installer::postCreateProject": {
+            "createDir": [
+                {
+                    "web/uploads/manages": "0755"
+                }
+            ]
+        }
+    }
 }

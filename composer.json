@@ -20,6 +20,11 @@
             "panix\\mod\\manages\\": ""
         }
     },
+    "scripts": {
+        "post-install-cmd": [
+            "Pixelion\\Composer\\Installers\\Installer::postCreateProject"
+        ]
+    },
     "extra": {
         "Pixelion\\Composer\\Installers\\Installer::postCreateProject": {
             "createDir": [

@@ -1,0 +1,23 @@
+{
+    "name": "panix/mod-manages",
+    "description": "Module manages",
+    "keywords": ["pixelion-cms", "module", "manages"],
+    "homepage": "https://github.com/andrtechno/mod-manages",
+    "type": "pixelion-module",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "PIXELION CMS",
+            "email": "dev@pixelion.com.ua",
+            "homepage": "https://pixelion.com.ua"
+        }
+    ],
+    "require": {
+        "panix/engine": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "panix\\mod\\manages\\": ""
+        }
+    }
+}

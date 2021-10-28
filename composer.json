@@ -19,7 +19,7 @@
         "psr-4": {
             "panix\\mod\\manages\\": ""
         }
-    }
+    },
     "extra": {
         "Pixelion\\Composer\\Installers\\Installer::postCreateProject": {
             "createDir": [
